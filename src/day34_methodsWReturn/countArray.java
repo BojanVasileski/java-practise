@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	System.out.println(find0occurences(ar ,  1));
 	
 	//Second assign return value to a new variable
-	int fives = find0occurences(ar, 5);
+	int fives = find0occurences(ar, 5); 
 	System.out.println("Array has "+fives+" fives");
 	
 	if(find0occurences(ar,2)>0) {
